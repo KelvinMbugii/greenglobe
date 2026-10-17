@@ -45,7 +45,7 @@
 <body>
 	<!-- loader -->
 	<div class="loader_bg">
-		<img src="assets/images/preloader/preloader.gif" alt="loading">
+		<!--img src="assets/images/preloader/preloader.gif" alt="loading">
 		<h5>Loading...</h5>
 	</div> 
 
@@ -99,7 +99,7 @@
 						<a href="index.php"><img src="assets/images/main-thumb/coffee-logo.jpg" alt=""></a>
 					</div>
 				</div>
-				<div class="col-lg-10">
+				<!--div class="col-lg-10">
 					<nav class="header-menu ">
 						<ul>
 							<li><a href="index.php" class="active">Home </a>
@@ -115,10 +115,10 @@
 							<li><a href="contact.php">Contact Us</a></li>
 							
 						</ul>
-					</nav>
+					</nav-->
 					<!-- Luxury B2B CTA Button -->
 					<div class="header-btn d-none d-lg-block">
-						<a href="contact.php" class="btn-sample-request" style="background-color: #6F4E37; color: #fff; padding: 10px 22px; border-radius: 4px; font-weight: 500; text-decoration: none; transition: background 0.3s;">Request a Sample</a>
+						<a href="contact.php" class="btn-sample-request">Request a Sample</a>
 					</div>
 					<!-- End Luxury B2B CTA Button -->
 				</div>
@@ -361,33 +361,27 @@
 	<!-- Start Karogoto-Asili Luxury Hero Section -->
 	<!--==================================================-->
 	<div class="slider owl-carousel">
-		<section class="slider-section style-2" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/images/main-thumb/coffee_slide.jpg') no-repeat center center; background-size: cover; padding: 140px 0;">
+		<section class="slider-section style-2 hero-coffee-bg">
 			<div class="container">
-            <div class="row align-items-center justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="slider-content">
-                        <div class="organic-section-sub-title style-2 mb-3">
-                            <h6 style="color: #f3f3f3; letter-spacing: 2px; text-transform: uppercase;">
-								Direct Origin Traceability <i class="bi bi-arrow-through-heart-fill"></i>
-							</h6>
-                        </div>
-                        <div class="slider-title mb-4">
-                            <h1 style="font-family: 'Clash Display', serif; font-size: 3.5rem; color: #ffffff; font-weight: 700; line-height: 1.2;">
-								East Africa’s Finest Specialty Coffee, Sourced Direct from Nyeri.
-							</h1>
-                        </div>
-                        <div class="slider-desc mb-5">
-                            <p style="color: #e0e0e0; font-size: 1.15rem; max-width: 800px; margin: 0 auto;">
-								Single-origin, fully traceable Arabica beans delivered with the quality, consistency, and professional rigor global roasters and specialty cafes demand.
-							</p>
-                        </div>
-                        <div class="slider-btn style-2 d-flex justify-content-center gap-3">
-                            <a href="service.php" class="btn-explore" style="background-color: transparent; border: 2px solid #ffffff; color: #ffffff; padding: 12px 28px; border-radius: 4px; font-weight: 600; text-decoration: none; transition: all 0.3s;">Explore Coffees</a>
-                            <a href="contact.php" class="btn-quote" style="background-color: #6F4E37; border: 2px solid #6F4E37; color: #ffffff; padding: 12px 28px; border-radius: 4px; font-weight: 600; text-decoration: none; transition: all 0.3s;">Request B2B Quote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+				<div class="row align-items-center justify-content-center text-center">
+					<div class="col-lg-10">
+						<div class="slider-content">
+							<div class="organic-section-sub-title style-2 mb-3">
+								<h6>Direct Origin Traceability <i class="bi bi-arrow-through-heart-fill"></i></h6>
+							</div>
+							<div class="slider-title mb-4">
+								<h1>East Africa’s Finest Specialty Coffee, Sourced Direct from Nyeri.</h1>
+							</div>
+							<div class="slider-desc mb-5">
+								<p>Single-origin, fully traceable Arabica beans delivered with the quality, consistency, and professional rigor global roasters and specialty cafes demand.</p>
+							</div>
+							<div class="slider-btn style-2 d-flex justify-content-center gap-3">
+								<a href="service.php" class="btn-explore">Explore Coffees</a>
+								<a href="contact.php" class="btn-quote">Request B2B Quote</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	</div>
@@ -400,6 +394,7 @@
 	<!--==================================================-->
 	<!-- Start Organic Category Section Here -->
 	<!--==================================================-->
+	<!--
 	<section class="category-section">
 		<div class="container">
 			<br>
@@ -461,12 +456,133 @@
 						</div>
 		</div>
 	</section>
+	-->
+
+
 	<!--==================================================-->
 	<!-- End Organic Category Section Here -->
 	<!--==================================================-->
 	
-	
-	
+	<!--==================================================-->
+	<!-- Start Karogoto-Asili Specialty Coffee Collection -->
+	<!--==================================================-->
+	<section class="category-section py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center wow fadeInDown animated">
+					<div class="organic-section-sub-title">
+						<h2>Our Specialty Coffee Collection</h2>
+					</div>
+					<div class="organic-section-title">
+						<h1>Single-Origin Grades from Nyeri</h1>
+					</div>
+				</div>
+			</div>
+
+			<!-- Filter Navigation Tabs -->
+			<div class="row justify-content-center my-4">
+				<div class="col-lg-8 text-center">
+					<div class="coffee-filter-tabs">
+						<button class="filter-btn active" data-filter="all">All Grades</button>
+						<button class="filter-btn" data-filter="aa">AA</button>
+						<button class="filter-btn" data-filter="ab">AB</button>
+						<button class="filter-btn" data-filter="c">Grade C</button>
+						<button class="filter-btn" data-filter="pb">Peaberry (PB)</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Coffee Products Grid (4 Grades) -->
+			<div class="row category-box">
+				<!-- Nyeri AA -->
+				<div class="col-lg-3 col-md-6 coffee-item" data-category="aa">
+					<div class="category-single-box coffee-card">
+						<div class="coffee-badge">Top Grade</div>
+						<div class="category-box-thumb mb-3">
+							<img src="assets/images/main-thumb/coffee-berry-2.jpg" alt="Nyeri AA Coffee">
+						</div>
+						<div class="category-box-title">
+							<h5>Nyeri AA</h5>
+						</div>
+						<div class="category-box-desc">
+							<p><strong>Tasting Notes:</strong> Blackcurrant, citrus brightness, floral aroma.<br>
+							<strong>Altitude:</strong> 1,800m+<br>
+							<strong>Profile:</strong> Large screen size, dense, syrupy body.</p>
+						</div>
+						<div class="product-btn mt-3">
+							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Nyeri AB -->
+				<div class="col-lg-3 col-md-6 coffee-item" data-category="ab">
+					<div class="category-single-box coffee-card">
+						<div class="category-box-thumb mb-3">
+							<img src="assets/images/main-thumb/crushed-coffee.jpg" alt="Nyeri AB Coffee">
+						</div>
+						<div class="category-box-title">
+							<h5>Nyeri AB</h5>
+						</div>
+						<div class="category-box-desc">
+							<p><strong>Tasting Notes:</strong> Sweet berry, stone fruit, balanced acidity.<br>
+							<strong>Altitude:</strong> 1,750m+<br>
+							<strong>Profile:</strong> Exceptional daily specialty blend foundation.</p>
+						</div>
+						<div class="product-btn mt-3">
+							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Nyeri Grade C -->
+				<div class="col-lg-3 col-md-6 coffee-item" data-category="c">
+					<div class="category-single-box coffee-card">
+						<div class="category-box-thumb mb-3">
+							<img src="assets/images/main-thumb/coffee-berry-2.jpg" alt="Nyeri Grade C Coffee">
+						</div>
+						<div class="category-box-title">
+							<h5>Nyeri Grade C</h5>
+						</div>
+						<div class="category-box-desc">
+							<p><strong>Tasting Notes:</strong> Chocolate undertones, caramel, mild spice.<br>
+							<strong>Altitude:</strong> 1,700m+<br>
+							<strong>Profile:</strong> Vibrant character, ideal for robust filter roasts.</p>
+						</div>
+						<div class="product-btn mt-3">
+							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Nyeri Peaberry (PB) -->
+				<div class="col-lg-3 col-md-6 coffee-item" data-category="pb">
+					<div class="category-single-box coffee-card">
+						<div class="coffee-badge exclusive">Exclusive Lot</div>
+						<div class="category-box-thumb mb-3">
+							<img src="assets/images/main-thumb/crushed-coffee.jpg" alt="Nyeri Peaberry Coffee">
+						</div>
+						<div class="category-box-title">
+							<h5>Nyeri Peaberry (PB)</h5>
+						</div>
+						<div class="category-box-desc">
+							<p><strong>Tasting Notes:</strong> Intense citrus, dark chocolate, winey finish.<br>
+							<strong>Altitude:</strong> 1,850m+<br>
+							<strong>Profile:</strong> Concentrated single-bean round structure.</p>
+						</div>
+						<div class="product-btn mt-3">
+							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================================================-->
+	<!-- End Specialty Coffee Collection Section -->
+	<!--==================================================-->
+		
+		
 	
 	
 	
@@ -474,6 +590,7 @@
 	<!--==================================================-->
 	<!-- Start Organic Brand Section Here -->
 	<!--==================================================-->
+	<!--
 	<div class="brand-section">
 		<div class="container-fluid">
 			<div class="organic-section-sub-title wow fadeInLeft animated">
@@ -521,13 +638,17 @@
 			</div>
 		</div>
 	</div>
+    -->
+
+   
+
 	<!--==================================================-->
 	<!-- End Organic Brand Section Here -->
 	<!--==================================================-->
 	
 	
 	
-	<section class="contact-inner-section">
+	<!--section class="contact-inner-section">
         <div class="container">
 			<div class="organic-section-sub-title wow fadeInLeft animated">
 				<h2>Reach us today</h2>
@@ -565,13 +686,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
 	
 	
 	<!--==================================================-->
 	<!-- Start Organic Footer Section Here -->
 	<!--==================================================-->
-	<footer class="footer-section">
+	<!--footer class="footer-section">
 		<div class="container">
 			<div class="organic-section-sub-title wow fadeInLeft animated">
 				<h2>Quick Links</h2>
@@ -679,7 +800,7 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer-->
 	<!--==================================================-->
 	<!-- End Organic Footer Section Here -->
 	<!--==================================================-->
@@ -692,7 +813,7 @@
 	<!--==================================================-->
 	<!-- Start scrollup Section Here-->
 	<!--==================================================-->
-	<div class="scroll-area">
+	<!--div class="scroll-area">
 		<div class="top-wrap">
 			<div class="go-top-btn-wraper">
 				<div class="prgoress_indicator active-progress">
@@ -702,7 +823,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div-->
 	<!--==================================================-->
 	<!-- Ends scrollup Section Here -->
 	<!--==================================================-->
@@ -726,7 +847,7 @@
 	<!--==================================================-->
 	<!-- Start Search Popup Area -->
 	<!--==================================================-->
-	<div class="search-popup">
+	<!--div class="search-popup">
 		<button class="close-search style-two"><i class="fas fa-times"></i></button>
 		<button class="close-search"><i class="fas fa-arrow-up"></i></button>
 		<form method="post" action="https://formspree.io/f/myyleorq"  id="dreamit-form">
@@ -747,6 +868,7 @@
 	<!--==================================================-->
 	<!-- Start JavaScrift CDN Section -->
 	<!--==================================================-->
+	
 	<script src="https://web3forms.com/client/script.js" async defer></script>
 
 	<!-- Modernizr JS -->
