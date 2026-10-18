@@ -43,11 +43,11 @@
 </head>
 
 <body>
-	<!-- loader -->
-	<div class="loader_bg">
-		<!--img src="assets/images/preloader/preloader.gif" alt="loading">
+	<!--div class="loader_bg">
+		<img src="assets/images/preloader/preloader.gif" alt="loading">
 		<h5>Loading...</h5>
-	</div> 
+	</div-->
+	
 
 
 	<!--==================================================-->
@@ -93,34 +93,23 @@
 	<header class="header-manu-section" id="sticky-header">
 		<div class="container">
 			<div class="row align-items-center">
-				<!--logo section-->
 				<div class="col-lg-2">
 					<div class="header-menu-logo ">
-						<a href="index.php"><img src="assets/images/main-thumb/coffee-logo.jpg" alt=""></a>
+						<a href="index.php"><img src="assets/images/main-thumb/coffee-logo.jpg" alt="Greenglobe Exporters"></a>
 					</div>
 				</div>
-				<!--div class="col-lg-10">
-					<nav class="header-menu ">
+				<div class="col-lg-10 d-flex align-items-center justify-content-lg-end flex-wrap gap-2">
+					<nav class="header-menu">
 						<ul>
-							<li><a href="index.php" class="active">Home </a>
-</li>
-							<li><a href="about.php">About Us </a>
-					
-							</li>
-							<li><a href="service.php">Our Products </a>
-								
-							</li>
-							<li><a href="gallary.php">Gallery</a></li>
-			
-							<li><a href="contact.php">Contact Us</a></li>
-							
+							<li><a href="index.php" class="active">Home</a></li>
+							<li><a href="about.php">About Us</a></li>
+							<li><a href="service.php">Our Coffees</a></li>
+							<li><a href="contact.php">Contact</a></li>
 						</ul>
-					</nav-->
-					<!-- Luxury B2B CTA Button -->
+					</nav>
 					<div class="header-btn d-none d-lg-block">
-						<a href="contact.php" class="btn-sample-request">Request a Sample</a>
+						<a href="contact" class="btn-sample-request">Request a Sample</a>
 					</div>
-					<!-- End Luxury B2B CTA Button -->
 				</div>
 			</div>
 		</div>
@@ -131,91 +120,17 @@
 			<nav class="header-menu">
 				<ul class="nav_scroll">
 					
-					<li><a href="index.php">Home </a></li>
-					<li><a href="about.php">About Us </a></li>
-					<li><a href="service.php">Our Products </a>
-						
-					</li>
-					<li><a href="gallary.php">Gallery</a></li>
-
-					<li><a href="contact.php">Contact Us</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about">About</a></li>
+					<li><a href="products">Our Coffees</a></li>
+					<li><a href="contact">Contact</a></li>
 					
 				</ul>
 			</nav>
 		</div>
 	</div>
-	<!--==========================
-	
-	
-	<!--==================================================-->
-	<!-- Start Organic Slider Section Here -->
-	<!--==================================================-->
-	<div class="slider owl-carousel">
-		<section class="slider-section">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<div class="slider-content">
-							<div class="organic-section-sub-title">
-								<h6>Pure Fresh Produce</h6>
-							</div>
-							<div class="slider-title">
-								<h1>Quality Fruits</h1>
-							</div>
-							<div class="slider-desc">
-								<p>Experience the Difference: Fresh, Nutritious, and Flavorful.
-									</p>
-							</div>
-							<div class="slider-btn">
-								<ul>
-									<li><a href="service.php">Discover More</a></li>
-									<li><a href="contact.php">Contact Us Now</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="slider-thumb">
-							<img src="assets/images/main-thumb/pine-slider.jfif" alt="thumb">
-							
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</section>
-		<section class="slider-section style-2">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<div class="slider-content">
-							<div class="organic-section-sub-title style-2">
-								<h6>Redefining Freshness, Redefining Standards <i class="bi bi-arrow-through-heart-fill"></i></h6>
-							</div>
-							<div class="slider-title">
-								<h1>Uplifting East Africa’s Finest Coffee to the World</h1>
-							</div>
-							<div class="slider-desc">
-								<p>GREENGLOBE EXPORTERS was founded in 2023 by a group of experienced coffee and vegetable enthusiasts who wanted to produce a better coffee and vegetable buying experience. We have envisioned to become a leading coffee buyer in the region, serving a diverse range of customers.  We are proud to be a part of the coffee industry and devoted to providing our customers with the highest quality coffee possible. We envisage a world where East African coffee is renowned in every household, café, and workplace, driving sustainable growth for farmers and generating meaningful connections between cultures through the common love of coffee. 
-									</p>
-							</div>
-							<div class="slider-btn style-2">
-								<a href="service.php">Discover More</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="slider-thumb">
-							<img src="assets/images/main-thumb/coffee_slide.jpg" alt="thumb">
-						</div>
-					</div>
-				</div>
-			
-		</section>
-	</div>
-	<!--==================================================-->
-	<!-- End Organic Slider Section Here -->
-	<!--==================================================-->
+
+	<!-- Legacy fruit/produce slider removed — single-page coffee hero below -->
 	
 	
 	
@@ -298,86 +213,33 @@
 	
 	
 	<!--==================================================-->
-	<!-- Start Organic About Section Here -->
+	<!-- Hero Section -->
 	<!--==================================================-->
-	<!--section class="about-section">
-		<div class="container">
-			<div class="organic-section-sub-title wow fadeInLeft animated">
-				<h2>About Us</h2>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="about-thumb wow fadeInUp animated">
-						<img src="assets/images/main-thumb/image1_sliderr.jpeg" alt="thumb">
-						
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="about-content">
-						
-						<div class="organic-section-title wow fadeInLeft animated">
-							<h1>Freshness Delivered, Quality Guaranteed</h1>
-						</div>
-						<div class="about-desc wow fadeInRight animated">
-							<p>We aim to share the rich, finest, authentic flavors of East African coffee with the world, fostering global appreciation for its unique heritage and sustainable cultivation.</p>
-						</div>
-						<div class="organic-section-sub-title wow fadeInLeft animated">
-							<h6>Why Choose Us</h6>
-						</div>
-						<br>
-						<div class="about-items wow fadeInUp animated">
-							<div class="about-item">
-								<div class="about-item-icon">
-									<img src="assets/images/icon/about-icon.png" alt="icon">
-								</div>
-								<div class="about-item-title">
-									<h4>Quality is our DNA</h4>
-								</div>
-							</div>
-							<div class="about-item">
-								<div class="about-item-icon">
-									<img src="assets/images/icon/about-icon-2.png" alt="icon">
-								</div>
-								<div class="about-item-title">
-									<h4>We deliver Quality & Authentic Flavors.</h4>
-								</div>
-							</div>
-							
-						</div>
-						<div class="about-btn">
-							<a href="about.php">Learn More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section--!>
-	<!--==================================================-->
-	<!-- End Organic About Section Here -->
-	<!--==================================================-->
-	
-	<!--==================================================-->
-	<!-- Start Karogoto-Asili Luxury Hero Section -->
-	<!--==================================================-->
-	<div class="slider owl-carousel">
+	<div class="slider owl-carousel" id="top">
 		<section class="slider-section style-2 hero-coffee-bg">
-			<div class="container">
+			<!-- Background Image Slideshow Layers -->
+			<div class="hero-bg-slideshow">
+				<div class="hero-slide bg-slide-1"></div>
+				<div class="hero-slide bg-slide-2"></div>
+				<div class="hero-slide bg-slide-3"></div>
+				<div class="hero-overlay"></div>
+			</div>
+			<div class="container position-relative" style="z-index: 2;">
 				<div class="row align-items-center justify-content-center text-center">
 					<div class="col-lg-10">
 						<div class="slider-content">
 							<div class="organic-section-sub-title style-2 mb-3">
-								<h6>Direct Origin Traceability <i class="bi bi-arrow-through-heart-fill"></i></h6>
+								<h6>Kenyan Specialty Coffee · Greenglobe Exporters</h6>
 							</div>
 							<div class="slider-title mb-4">
-								<h1>East Africa’s Finest Specialty Coffee, Sourced Direct from Nyeri.</h1>
+								<h1>Uplifting EastAfrica's finest coffee to the world</h1>
 							</div>
 							<div class="slider-desc mb-5">
-								<p>Single-origin, fully traceable Arabica beans delivered with the quality, consistency, and professional rigor global roasters and specialty cafes demand.</p>
+								<p>Premium traceable Kenyan Arabica sourced from the highlands of Nyeri and delivered to specialty roasters and importers worldwide—with the consistency and documentation global buyers expect.</p>
 							</div>
-							<div class="slider-btn style-2 d-flex justify-content-center gap-3">
-								<a href="service.php" class="btn-explore">Explore Coffees</a>
-								<a href="contact.php" class="btn-quote">Request B2B Quote</a>
+							<div class="slider-btn style-2 d-flex justify-content-center flex-wrap gap-3">
+								<a href="about" class="btn-explore">Explore Our Story</a>
+								<a href="contact" class="btn-quote">Request a Sample</a>
 							</div>
 						</div>
 					</div>
@@ -387,6 +249,260 @@
 	</div>
 	<!--==================================================-->
 	<!-- End Hero Section -->
+	<!--==================================================-->
+
+	<!--==================================================-->
+	<!-- Who We Are (About) -->
+	<!--==================================================-->
+	<section class="about-section" id="about">
+		<div class="container">
+			<div class="organic-section-sub-title wow fadeInLeft animated text-center">
+				<h2>Who We Are</h2>
+			</div>
+			<br>
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="about-thumb wow fadeInUp animated">
+						<img src="assets/images/main-thumb/coffee-tree.jpg" alt="Kenyan coffee at origin">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="about-content">
+						<div class="organic-section-title wow fadeInLeft animated">
+							<h1>Connecting East Africa's finest coffee with discerning buyers worldwide.</h1>
+						</div>
+						<div class="about-desc wow fadeInRight animated">
+							<p>Greenglobe Exporters is an origin-focused Kenyan specialty coffee exporter. We work with farmers, cooperatives, and washing stations across EastAfrica to source lots of true character—and deliver them with full traceability to roasters and importers who value transparency.</p>
+						</div>
+						<div class="about-desc wow fadeInRight animated">
+							<p>From quality control to documentation and international logistics, every step is handled with the professionalism global buyers expect and the care that origin deserves.</p>
+						</div>
+						<div class="about-items wow fadeInUp animated">
+							<div class="about-item">
+								<div class="about-item-icon">
+									<img src="assets/images/icon/about-icon.png" alt="icon">
+								</div>
+								<div class="about-item-title">
+									<h4>100% Traceable Origin</h4>
+								</div>
+							</div>
+							<div class="about-item">
+								<div class="about-item-icon">
+									<img src="assets/images/icon/about-icon-2.png" alt="icon">
+								</div>
+								<div class="about-item-title">
+									<h4>Specialty Coffee Excellence</h4>
+								</div>
+							</div>
+						</div>
+						<div class="about-btn">
+							<a href="index.php#why-buyers">Why Buyers Choose Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================================================-->
+	<!-- End Who We Are -->
+	<!--==================================================-->
+
+	<!--==================================================-->
+	<!-- Why Buyers Choose Us -->
+	<!--==================================================-->
+	<section class="buyers-trust-section py-5" id="why-buyers">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center wow fadeInDown animated mb-4">
+					<div class="organic-section-sub-title">
+						<h2>Why Buyers Choose Us</h2>
+					</div>
+					<div class="organic-section-title">
+						<h1>A sourcing partner built on trust and traceability.</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row g-4">
+				<div class="col-lg-3 col-md-6">
+					<div class="buyers-trust-card wow fadeInUp animated">
+						<h4>Traceable Sourcing</h4>
+						<p>Every lot carries a clear journey—from farm and washing station to mill and your warehouse.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="buyers-trust-card wow fadeInUp animated">
+						<h4>Direct Origin Relationships</h4>
+						<p>Long-standing partnerships with farmers, cooperatives, and stations across EastAfrica.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="buyers-trust-card wow fadeInUp animated">
+						<h4>Specialty Coffee Excellence</h4>
+						<p>Carefully cupped lots with the bright acidity, complexity, and structure EasternAfrica coffee is known for.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="buyers-trust-card wow fadeInUp animated">
+						<h4>Reliable Export Logistics</h4>
+						<p>Professional handling, certification, documentation, and shipping tailored to your market.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================================================-->
+	<!-- End Why Buyers Choose Us -->
+	<!--==================================================-->
+
+	<!--==================================================-->
+	<!-- Buyer Partnership (About) -->
+	<!--==================================================-->
+	<section class="buyer-partnership-section py-5" id="partnership">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center wow fadeInDown animated mb-5">
+					<div class="organic-section-sub-title">
+						<h2>Buyer Partnership</h2>
+					</div>
+					<div class="organic-section-title">
+						<h1>More than coffee. A trusted sourcing partnership.</h1>
+					</div>
+					<div class="about-desc mx-auto mt-3">
+						<p>We build long-term relationships with the buyers we serve—bringing consistency, transparency, and reliability to every shipment, every season.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row g-4">
+				<div class="col-lg-3 col-md-6">
+					<div class="partnership-pillar wow fadeInUp animated">
+						<span class="partnership-pillar-num">01</span>
+						<h4>Quality</h4>
+						<p>We are dedicated to sourcing only the finest coffee beans.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="partnership-pillar wow fadeInUp animated">
+						<span class="partnership-pillar-num">02</span>
+						<h4>Transparency</h4>
+						<p>We maintain open and honest communication with all stakeholders.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="partnership-pillar wow fadeInUp animated">
+						<span class="partnership-pillar-num">03</span>
+						<h4>Sustainability</h4>
+						<p>We prioritize enviromentally friendly and socially responsible practices.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="partnership-pillar wow fadeInUp animated">
+						<span class="partnership-pillar-num">04</span>
+						<h4>FairTrade</h4>
+						<p>We advocate for fair prices and ethical partnership with farmers.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--==================================================-->
+	<!-- Certifications (About) -->
+	<!--==================================================-->
+	<section class="certifications-section" id="certifications">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center wow fadeInUp animated">
+					<h3 class="certifications-heading">We are certified by</h3>
+				</div>
+			</div>
+		</div>
+
+		<!-- Full-width marquee strip (outside container so it bleeds edge-to-edge) -->
+		<div class="cert-marquee-wrapper">
+			<!-- Fade edges -->
+			<div class="cert-marquee-fade cert-marquee-fade--left"></div>
+			<div class="cert-marquee-fade cert-marquee-fade--right"></div>
+
+			<div class="cert-marquee-track">
+				<!-- First set -->
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Organic">
+					</div>
+					<span>Organic</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Fair Trade">
+					</div>
+					<span>Fair Trade</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Rainforest Alliance">
+					</div>
+					<span>Rainforest Alliance</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="UTZ">
+					</div>
+					<span>UTZ</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Export Quality">
+					</div>
+					<span>Export Quality</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Specialty Grade">
+					</div>
+					<span>Specialty Grade</span>
+				</div>
+				<!-- Duplicate set for seamless loop -->
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Organic">
+					</div>
+					<span>Organic</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Fair Trade">
+					</div>
+					<span>Fair Trade</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Rainforest Alliance">
+					</div>
+					<span>Rainforest Alliance</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="UTZ">
+					</div>
+					<span>UTZ</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Export Quality">
+					</div>
+					<span>Export Quality</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Specialty Grade">
+					</div>
+					<span>Specialty Grade</span>
+				</div>
+			</div><!-- /.cert-marquee-track -->
+		</div><!-- /.cert-marquee-wrapper -->
+	</section>
+	<!--==================================================-->
+	<!-- End About: Partnership & Certifications -->
 	<!--==================================================-->
 	
 	
@@ -466,15 +582,15 @@
 	<!--==================================================-->
 	<!-- Start Karogoto-Asili Specialty Coffee Collection -->
 	<!--==================================================-->
-	<section class="category-section py-5">
+	<section class="category-section py-5" id="products">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center wow fadeInDown animated">
 					<div class="organic-section-sub-title">
-						<h2>Our Specialty Coffee Collection</h2>
+						<h2>Our Coffee Collection</h2>
 					</div>
 					<div class="organic-section-title">
-						<h1>Single-Origin Grades from Nyeri</h1>
+						<h1>Distinctive EastAfrica lots, graded with care.</h1>
 					</div>
 				</div>
 			</div>
@@ -494,15 +610,15 @@
 
 			<!-- Coffee Products Grid (4 Grades) -->
 			<div class="row category-box">
-				<!-- Nyeri AA -->
+				<!-- Grade AA -->
 				<div class="col-lg-3 col-md-6 coffee-item" data-category="aa">
 					<div class="category-single-box coffee-card">
 						<div class="coffee-badge">Top Grade</div>
 						<div class="category-box-thumb mb-3">
-							<img src="assets/images/main-thumb/coffee-berry-2.jpg" alt="Nyeri AA Coffee">
+							<img src="assets/images/main-thumb/coffee-berry-1.jpg" alt="AA Coffee">
 						</div>
 						<div class="category-box-title">
-							<h5>Nyeri AA</h5>
+							<h5>Grade AA</h5>
 						</div>
 						<div class="category-box-desc">
 							<p><strong>Tasting Notes:</strong> Blackcurrant, citrus brightness, floral aroma.<br>
@@ -510,19 +626,19 @@
 							<strong>Profile:</strong> Large screen size, dense, syrupy body.</p>
 						</div>
 						<div class="product-btn mt-3">
-							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+							<a href="contact" class="btn-sample-sm">Request Wholesale Sample</a>
 						</div>
 					</div>
 				</div>
 
-				<!-- Nyeri AB -->
+				<!-- Grade AB -->
 				<div class="col-lg-3 col-md-6 coffee-item" data-category="ab">
 					<div class="category-single-box coffee-card">
 						<div class="category-box-thumb mb-3">
-							<img src="assets/images/main-thumb/crushed-coffee.jpg" alt="Nyeri AB Coffee">
+							<img src="assets/images/main-thumb/crushed-coffee.jpg" alt="AB Coffee">
 						</div>
 						<div class="category-box-title">
-							<h5>Nyeri AB</h5>
+							<h5>Grade AB</h5>
 						</div>
 						<div class="category-box-desc">
 							<p><strong>Tasting Notes:</strong> Sweet berry, stone fruit, balanced acidity.<br>
@@ -530,19 +646,19 @@
 							<strong>Profile:</strong> Exceptional daily specialty blend foundation.</p>
 						</div>
 						<div class="product-btn mt-3">
-							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+							<a href="contact" class="btn-sample-sm">Request Wholesale Sample</a>
 						</div>
 					</div>
 				</div>
 
-				<!-- Nyeri Grade C -->
+				<!--  Grade C -->
 				<div class="col-lg-3 col-md-6 coffee-item" data-category="c">
 					<div class="category-single-box coffee-card">
 						<div class="category-box-thumb mb-3">
-							<img src="assets/images/main-thumb/coffee-berry-2.jpg" alt="Nyeri Grade C Coffee">
+							<img src="assets/images/main-thumb/coffee-berry-2.jpg" alt="Grade C Coffee">
 						</div>
 						<div class="category-box-title">
-							<h5>Nyeri Grade C</h5>
+							<h5>Grade C</h5>
 						</div>
 						<div class="category-box-desc">
 							<p><strong>Tasting Notes:</strong> Chocolate undertones, caramel, mild spice.<br>
@@ -550,20 +666,20 @@
 							<strong>Profile:</strong> Vibrant character, ideal for robust filter roasts.</p>
 						</div>
 						<div class="product-btn mt-3">
-							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+							<a href="contact" class="btn-sample-sm">Request Wholesale Sample</a>
 						</div>
 					</div>
 				</div>
 
-				<!-- Nyeri Peaberry (PB) -->
+				<!-- Peaberry (PB) -->
 				<div class="col-lg-3 col-md-6 coffee-item" data-category="pb">
 					<div class="category-single-box coffee-card">
 						<div class="coffee-badge exclusive">Exclusive Lot</div>
 						<div class="category-box-thumb mb-3">
-							<img src="assets/images/main-thumb/crushed-coffee.jpg" alt="Nyeri Peaberry Coffee">
+							<img src="assets/images/main-thumb/crushed-coffee.jpg" alt="Peaberry Coffee">
 						</div>
 						<div class="category-box-title">
-							<h5>Nyeri Peaberry (PB)</h5>
+							<h5>Peaberry (PB)</h5>
 						</div>
 						<div class="category-box-desc">
 							<p><strong>Tasting Notes:</strong> Intense citrus, dark chocolate, winey finish.<br>
@@ -571,7 +687,7 @@
 							<strong>Profile:</strong> Concentrated single-bean round structure.</p>
 						</div>
 						<div class="product-btn mt-3">
-							<a href="contact.php" class="btn-sample-sm">Request Wholesale Sample</a>
+							<a href="contact" class="btn-sample-sm">Request Sample</a>
 						</div>
 					</div>
 				</div>
@@ -581,11 +697,66 @@
 	<!--==================================================-->
 	<!-- End Specialty Coffee Collection Section -->
 	<!--==================================================-->
-		
-		
-	
-	
-	
+
+	<!--==================================================-->
+	<!-- Origin Story -->
+	<!--==================================================-->
+	<section class="about-section style-two py-5" id="origin">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 wow fadeInLeft animated">
+					<div class="organic-section-sub-title">
+						<h6>01 — Karogoto-Asili Coffee</h6>
+					</div>
+					<div class="organic-section-title">
+						<h1>Uplifting EastAfrica's finest coffee to the world.</h1>
+					</div>
+					<div class="about-desc">
+						<p>The highlands around Nyeri rise above 1,700 metres into rich volcanic soils, cool mountain air, and reliable rainfall. It is here—in the slow ripening of cherries under generations of farmer care—that Kenyan coffee earns its singular profile.</p>
+					</div>
+					<div class="row mt-4 origin-stats">
+						<div class="col-4 text-center">
+							<strong>1,800m+</strong>
+							<span>Growing altitude</span>
+						</div>
+						<div class="col-4 text-center">
+							<strong>SL28 · SL34</strong>
+							<span>Heritage varieties</span>
+						</div>
+						<div class="col-4 text-center">
+							<strong>Volcanic</strong>
+							<span>Mineral-rich soils</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 wow fadeInRight animated">
+					<div class="about-thumb">
+						<img src="assets/images/main-thumb/coffee_slide.jpg" alt="Karogoto-Asili Coffee">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--==================================================-->
+	<!-- Partnership CTA -->
+	<!--==================================================-->
+	<section class="partnership-cta-section py-5">
+		<div class="container text-center wow fadeInUp animated">
+			<div class="organic-section-sub-title">
+				<h2>Let's Begin</h2>
+			</div>
+			<div class="organic-section-title mb-4">
+				<h1>Looking for premium Kenyan coffee at origin?</h1>
+			</div>
+			<div class="about-btn">
+				<a href="contact.php">Start a Conversation</a>
+			</div>
+		</div>
+	</section>
+	<!--==================================================-->
+	<!-- End Partnership CTA -->
+	<!--==================================================-->
 	
 	<!--==================================================-->
 	<!-- Start Organic Brand Section Here -->
@@ -692,7 +863,7 @@
 	<!--==================================================-->
 	<!-- Start Organic Footer Section Here -->
 	<!--==================================================-->
-	<!--footer class="footer-section">
+	<footer class="footer-section">
 		<div class="container">
 			<div class="organic-section-sub-title wow fadeInLeft animated">
 				<h2>Quick Links</h2>
@@ -704,7 +875,7 @@
 						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="logo">
 					</div>
 					<div class="footero-desc">
-						<p>We lead the global market in providing premium-quality fruits and vegetables, prioritizing freshness, sustainability, and value for our customers worldwide. </p>
+						<p>Uplifting EastAfrica's finest coffee to the world.</p>
 					</div>
 					<div class="footer-bottomo-social">
 						<ul>
@@ -720,10 +891,10 @@
 							<h4>Explore</h4>
 						</div>
 						<ul>
-							<li><a href="about.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> About Us</a></li>
-							<li><a href="service.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Products</a></li>
-							<li><a href="gallary.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our gallery</a></li>
-							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact us</a></li>
+							<li><a href="index.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Home</a></li>
+							<li><a href="index.php#about"><img src="assets/images/icon/footer-icon.png" alt="icon"> About</a></li>
+							<li><a href="index.php#products"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Coffees</a></li>
+							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -796,11 +967,11 @@
 			</div>
 			<div class="row">
 				<div class="footer-bottom wow fadeInLeft animated">
-					<p>© Copyright 2024. All Right Reserved by <a href="#">Greenglobe Exporters</a></p>
+					<p>© Copyright <?php echo date('Y'); ?>. All rights reserved by <a href="index.php">Greenglobe Exporters</a></p>
 				</div>
 			</div>
 		</div>
-	</footer-->
+	</footer>
 	<!--==================================================-->
 	<!-- End Organic Footer Section Here -->
 	<!--==================================================-->
@@ -847,16 +1018,9 @@
 	<!--==================================================-->
 	<!-- Start Search Popup Area -->
 	<!--==================================================-->
-	<!--div class="search-popup">
-		<button class="close-search style-two"><i class="fas fa-times"></i></button>
-		<button class="close-search"><i class="fas fa-arrow-up"></i></button>
-		<form method="post" action="https://formspree.io/f/myyleorq"  id="dreamit-form">
-			<div class="form-group">
-				<input type="search" name="search-field" value="" placeholder="Search Here" required="">
-				<button type="submit"><i class="fas fa-search"></i></button>
-			</div>
-		</form>
-	</div>
+	<!-- Search popup disabled
+	<div class="search-popup">...</div>
+	-->
 	<!--==================================================-->
 	<!-- End Search Popup Area -->
 	<!--==================================================-->

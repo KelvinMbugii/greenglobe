@@ -44,10 +44,10 @@
 
 <body>
 	<!-- loder -->
-	<div class="loader_bg">
+	<!--div class="loader_bg">
 		<img src="assets/images/preloader/preloader.gif" alt="loading">
 		<h5>Loading...</h5>
-	</div> 
+	</div--> 
 
 
 	<!--==================================================-->
@@ -101,17 +101,10 @@
 				<div class="col-lg-10">
 					<nav class="header-menu ">
 						<ul>
-							<li><a href="index.php" >Home </a>
-</li>
-							<li><a href="about.php">About Us </a>
-					
-							</li>
-							<li><a href="service.php" class="active">Our Products </a>
-								
-							</li>
-							<li><a href="gallary.php">Gallery</a></li>
-			
-							<li><a href="contact.php">Contact Us</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="index.php#about">About</a></li>
+							<li><a href="index.php#products" class="active">Our Coffees</a></li>
+							<li><a href="contact.php">Contact</a></li>
 							
 						</ul>
 					</nav>
@@ -124,20 +117,11 @@
 		<div class="mobile-menu">
 			<nav class="header-menu">
 				<ul class="nav_scroll">
-				
-												
-												<li><a href="index.php">Home </a></li>
-												<li><a href="about.php">About Us </a>
-										
-												</li>
-												<li><a href="service.php">Our Products </a>
-													
-												</li>
-												<li><a href="gallary.php">Gallery</a></li>
-								
-												<li><a href="contact.php">Contact Us</a></li>
-					
-				</ul>
+					<li><a href="index.php" class="active">Home</a></li>
+					<li><a href="about.php">About Us</a></li>
+					<li><a href="service.php">Our Coffees</a></li>
+					<li><a href="contact.php">Contact</a></li>
+		        </ul>
 			</nav>
 		</div>
 	</div>
@@ -363,10 +347,10 @@
 							<h4>Explore</h4>
 						</div>
 						<ul>
-							<li><a href="about.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> About Us</a></li>
-							<li><a href="service.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Products</a></li>
-							<li><a href="gallary.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our gallery</a></li>
-							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact us</a></li>
+							<li><a href="index.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Home</a></li>
+							<li><a href="index.php#about"><img src="assets/images/icon/footer-icon.png" alt="icon"> About</a></li>
+							<li><a href="index.php#products"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Coffees</a></li>
+							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact</a></li>
 						</ul>
 					</div>
 				</div>
