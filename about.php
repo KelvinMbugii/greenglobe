@@ -6,7 +6,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Greenglobe Exporters</title>
+	<title>About Us | Greenglobe Exporters</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/fav-icon.png">
 	<!-- Bootstrap CSS Link -->
@@ -34,20 +34,18 @@
 	<!-- Bootstrap Icons Link -->
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css" type="text/css" media="all">
 	<!-- Custom Style CSS Link -->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">  
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
 	<!-- Responsive CSS Link -->
 	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
 	<link href="https://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
-                
-                
 </head>
 
 <body>
 	<!-- preloder -->
-	<div class="loader_bg">
+	<!--div class="loader_bg">
 		<img src="assets/images/preloader/preloader.gif" alt="loading">
 		<h5>Loading...</h5>
-	</div>
+	</div-->
 
 
 	<!--==================================================-->
@@ -62,7 +60,6 @@
 							<li><i class="bi bi-envelope-fill"></i><a href="#">info@greenglobeexporters.co.ke</a></li>
 							<li><i class="bi bi-telephone-fill"></i>+254 717989343</li>
 							<li><i class="bi bi-geo-alt-fill"></i>Nairobi, Kenya</li>
-
 						</ul>
 					</div>
 				</div>
@@ -81,12 +78,7 @@
 	<!--==================================================-->
 	<!-- End Oraganic Header Top Section -->
 	<!--==================================================-->
-	
-	
-	
-	
-	
-	
+
 	<!--==================================================-->
 	<!-- Start Oraganic Header Menu Section -->
 	<!--==================================================-->
@@ -104,13 +96,13 @@
 							<li><a href="index.php">Home </a>
 </li>
 							<li><a href="about.php" class="active">About Us </a>
-					
+
 							</li>
-							<li><a href="service.php">Our Products </a>
+							<li><a href="service.php">Gallary </a>
 								
 							</li>
-							<li><a href="gallary.php">Gallery</a></li>
-			
+							<!--li><a href="gallary.php">Gallery</a></li-->
+				
 							<li><a href="contact.php">Contact Us</a></li>
 							
 						</ul>
@@ -125,127 +117,227 @@
 			<nav class="header-menu">
 				<ul class="nav_scroll">
 					
-												<li><a href="index.php">Home </a></li>
-												<li><a href="about.php">About Us </a>
-										
-												</li>
-												<li><a href="service.php">Our Products </a>
-													
-												</li>
-												<li><a href="gallary.php">Gallery</a></li>
-								
-												<li><a href="contact.php">Contact Us</a></li>
-					
-				</ul>
+								<li><a href="index.php">Home </a></li>
+								<li><a href="about.php">About Us </a>
+						
+								</li>
+								<li><a href="service.php">Our Products </a>
+									
+								</li>
+								<li><a href="gallary.php">Gallery</a></li>
+				
+								<li><a href="contact.php">Contact Us</a></li>
+				
+			</ul>
 			</nav>
 		</div>
 	</div>
-	
+
+
 	<!--==================================================-->
-	<!-- Start Organic Banner Inner Section Here -->
-	<!--==================================================-->	
-    <section class="banner-inner-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 wow fadeInUp animated">
-                    <div class="banner-inner-title">
-                        <h1>About Us</h1>
-                    </div>
-                    <div class="banner-inner-link">
-                        <ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li><i class="bi bi-arrow-right"></i></li>
-                            <li><a href="about.php">About</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- About Hero Banner — compact with dark overlay for readable text -->
 	<!--==================================================-->
-	<!-- End Organic Banner Inner Section Here -->
-	<!--==================================================-->	
-
-
-
-
-
-
-    <!--==================================================-->
-	<!-- Start Organic About Section Here -->
+	<section class="about-hero-section">
+		<div class="about-hero-overlay"></div>
+		<div class="container about-hero-content">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center wow fadeInUp animated">
+					<p class="about-hero-breadcrumb">
+						<a href="index.php">Home</a>
+						<i class="bi bi-arrow-right"></i>
+						About Us
+					</p>
+					<h1 class="about-hero-title">Our Story &amp; Purpose</h1>
+					<p class="about-hero-sub">From the fertile highlands of Kenya to tables around the world — we bring nature's finest to your doorstep.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--==================================================-->
-	<section class="about-section">
+	<!-- End About Hero Banner -->
+	<!--==================================================-->
+
+
+	<!--==================================================-->
+	<!-- Our Story Section -->
+	<!--==================================================-->
+	<section class="about-story-section">
 		<div class="container">
-			
-			<br>
-			<div class="row">
-				<div class="col-lg-6">
-					
-					<div class="about-thumb wow fadeInUp animated">
-						<img src="assets/images/main-thumb/cofee-tree.jpg" alt="thumb">
-						
+			<div class="row align-items-center g-5">
+				<div class="col-lg-6 wow fadeInLeft animated">
+					<div class="about-story-img-wrap">
+						<img src="assets/images/main-thumb/coffee-about.jpg" alt="Coffee plantation in Kenya" class="about-story-img">
+						<div class="about-story-badge">
+							<span class="about-story-badge-num">3+</span>
+							<span class="about-story-badge-text">Years of<br>Excellence</span>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<div class="organic-section-sub-title wow fadeInLeft animated">
-						<h6>Our Purpose</h6>
-					</div>
-					<div class="about-content">
-						
-						<div class="organic-section-title wow fadeInLeft animated">
-							<h1>We sell fresh fruits, vegetables and coffee.</h1>
-						</div>
-						<div class="about-desc wow fadeInRight animated">
-							<p>We are dedicated to sourcing the freshest, highest-quality organic produce and a curated selection of specialty coffees, and delivering them to our customers with integrity, reliability, and exceptional service.</p>
-						</div>
-						<div class="organic-section-sub-title wow fadeInLeft animated">
-						   <h6>Our Vision</h6>
-					    </div>
-						<div class="about-desc wow fadeInRight animated">
-							<p>To be a global leader in providing premium-quality fruits, vegetables, and coffee, by delivering unmatched freshness, uncompromising sustainability, and exceptional value to every customer, worldwide..</p>
-						</div>
-						<div class="organic-section-sub-title wow fadeInLeft animated">
-						   <h6>Our Mission</h6>
-					    </div>
-						<div class="about-desc wow fadeInRight animated">
-							<p>Our mission is to source the freshest, highest-quality fruits, vegetables, and specialty coffees, and deliver them to our customers with integrity, reliability, and exceptional service. We are dedicated to fostering long-term relationships with our growers, ensuring fair prices and sustainable practices</p>
-						</div>
-						<div class="organic-section-sub-title wow fadeInLeft animated">
-							<h6>Why Choose Us</h6>
-						</div>
-						<br>
-						<div class="about-items wow fadeInUp animated">
-							<div class="about-item">
-								<div class="about-item-icon">
-									<img src="assets/images/icon/about-icon.png" alt="icon">
-								</div>
-								<div class="about-item-title">
-									<h4>Quality is our DNA</h4>
-								</div>
-							</div>
-							<div class="about-item">
-								<div class="about-item-icon">
-									<img src="assets/images/icon/about-icon-2.png" alt="icon">
-								</div>
-								<div class="about-item-title">
-									<h4>We deliver Freshness</h4>
-								</div>
-							</div>
-							
-						</div>
-						<div class="about-btn">
-							<a href="service.php">View Our Products</a>
-						</div>
+				<div class="col-lg-6 wow fadeInRight animated">
+					<div class="about-story-text">
+						<span class="about-label">Our Story</span>
+						<h2 class="about-section-heading">Uplifting East Africa’s Finest Coffee to the World</h2>
+						<p>GREENGLOBE EXPORTERS was founded in 2023 by a group of experienced coffee enthusiasts who wanted to produce a better coffee buying experience. We have envisioned to become a leading coffee buyer in the region, serving a diverse range of customers.  We are proud to be a part of the coffee industry and devoted to providing our customers with the highest quality coffee possible. We envisage a world where East African coffee is renowned in every household, café, and workplace, driving sustainable growth for farmers and generating meaningful connections between cultures through the common love of coffee. </p>
+		
+						<a href="service.php" class="about-btn-primary">Explore Our Products</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
-	
-	
-	
-	
+	<!--==================================================-->
+	<!-- End Our Story Section -->
+	<!--==================================================-->
+
+
+	<!--==================================================-->
+	<!-- Mission, Vision & Values Section -->
+	<!--==================================================-->
+	<section class="about-mv-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-lg-7 text-center wow fadeInUp animated">
+					<span class="about-label">What Drives Us</span>
+					<h2 class="about-section-heading">Our Mission &amp; Vision</h2>
+				</div>
+			</div>
+			<div class="row g-4">
+				<!-- Mission -->
+				<div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="0.1s">
+					<div class="about-mv-card about-mv-card--mission">
+						<div class="about-mv-card-icon">
+							<i class="bi bi-bullseye"></i>
+						</div>
+						<h3 class="about-mv-card-title">Our Mission</h3>
+						<p>To share the rich, finest, authentic flavors of East African coffee with the world, fostering global appreciation for its unique heritage and sustainable cultivation.
+							We are committed to supporting local farmers, promoting ethical sourcing practices, and delivering exceptional, high-quality coffee that connects people across cultures while contributing
+							to the growth and prosperity of East Africa.
+						</p>
+					</div>
+				</div>
+				<!-- Vision -->
+				<div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="0.2s">
+					<div class="about-mv-card about-mv-card--vision">
+						<div class="about-mv-card-icon">
+							<i class="bi bi-eye"></i>
+						</div>
+						<h3 class="about-mv-card-title">Our Vision</h3>
+						<p>To become a worldwide leader in premium East African Coffee.</p>
+					</div>
+				</div>
+				<!-- Values -->
+				<div class="col-lg-4 col-md-6 wow fadeInUp animated" data-wow-delay="0.3s">
+					<div class="about-mv-card about-mv-card--values">
+						<div class="about-mv-card-icon">
+							<i class="bi bi-gem"></i>
+						</div>
+						<h3 class="about-mv-card-title">Our Services</h3>
+						<ul class="about-mv-values-list">
+							<li><i class="bi bi-check-circle-fill"></i> Coffee Buying</li>
+							<li><i class="bi bi-check-circle-fill"></i> Export Services</li>
+							<li><i class="bi bi-check-circle-fill"></i> Quality control</li>
+							<li><i class="bi bi-check-circle-fill"></i> Susstainability initiatives</li>
+							<li><i class="bi bi-check-circle-fill"></i> Farmer Support & Training</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================================================-->
+	<!-- End Mission, Vision & Values Section -->
+	<!--==================================================-->
+
+
+	<!--==================================================-->
+	<!-- Certified By Section -->
+	<!--==================================================-->
+	<section class="certifications-section" id="certifications">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center wow fadeInUp animated">
+					<h3 class="certifications-heading">We are certified by</h3>
+				</div>
+			</div>
+		</div>
+
+		<!-- Full-width marquee strip (outside container so it bleeds edge-to-edge) -->
+		<div class="cert-marquee-wrapper">
+			<!-- Fade edges -->
+			<div class="cert-marquee-fade cert-marquee-fade--left"></div>
+			<div class="cert-marquee-fade cert-marquee-fade--right"></div>
+
+			<div class="cert-marquee-track">
+				<!-- First set -->
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				<div class="cert-chip">
+					<div class="cert-chip-logo">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
+					</div>
+					<span>KEBS</span>
+				</div>
+				</div>
+			</div><!-- /.cert-marquee-track -->
+		</div><!-- /.cert-marquee-wrapper -->
+	</section>
+	<!--==================================================-->
+	<!-- End Certified By Section -->
+	<!--==================================================-->
+
+
 	<!--==================================================-->
 	<!-- Start Organic Footer Section Here -->
 	<!--==================================================-->
@@ -352,7 +444,7 @@
 			</div>
 			<div class="row">
 				<div class="footer-bottom wow fadeInLeft animated">
-					<p>© Copyright 2024. All Right Reserved by <a href="#">Greenglobe Exporters</a></p>
+					<p>&copy; Copyright 2024. All Right Reserved by <a href="#">Greenglobe Exporters</a></p>
 				</div>
 			</div>
 		</div>
@@ -360,8 +452,6 @@
 	<!--==================================================-->
 	<!-- End Organic Footer Section Here -->
 	<!--==================================================-->
-
-
 
 
 
@@ -399,7 +489,6 @@
 
 
 
-
 	<!--==================================================-->
 	<!-- Start Search Popup Area -->
 	<!--==================================================-->
@@ -420,9 +509,8 @@
 
 
 
-
 	<!--==================================================-->
-	<!-- Start JavaScrift CDN Section -->
+	<!-- Start JavaScript CDN Section -->
 	<!--==================================================-->
 
 	<!-- Modernizr JS -->
@@ -461,5 +549,4 @@
 	<script src="assets/js/custom.js"></script>
 
 </body>
-
-		</html>
+</html>

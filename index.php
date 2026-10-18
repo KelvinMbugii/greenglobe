@@ -103,7 +103,7 @@
 						<ul>
 							<li><a href="index.php" class="active">Home</a></li>
 							<li><a href="about.php">About Us</a></li>
-							<li><a href="service.php">Our Coffees</a></li>
+							<li><a href="service.php">Gallary</a></li>
 							<li><a href="contact.php">Contact</a></li>
 						</ul>
 					</nav>
@@ -427,76 +427,63 @@
 				<!-- First set -->
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Organic">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Organic</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Fair Trade">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Fair Trade</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Rainforest Alliance">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Rainforest Alliance</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="UTZ">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>UTZ</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Export Quality">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Export Quality</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Specialty Grade">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Specialty Grade</span>
-				</div>
-				<!-- Duplicate set for seamless loop -->
-				<div class="cert-chip">
-					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Organic">
-					</div>
-					<span>Organic</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Fair Trade">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Fair Trade</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Rainforest Alliance">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Rainforest Alliance</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="UTZ">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>UTZ</span>
+					<span>KEBS</span>
 				</div>
 				<div class="cert-chip">
 					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Export Quality">
+						<img src="assets/images/icon/kebs-seeklogo.png" alt="KEBS">
 					</div>
-					<span>Export Quality</span>
-				</div>
-				<div class="cert-chip">
-					<div class="cert-chip-logo">
-						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="Specialty Grade">
-					</div>
-					<span>Specialty Grade</span>
+					<span>KEBS</span>
 				</div>
 			</div><!-- /.cert-marquee-track -->
 		</div><!-- /.cert-marquee-wrapper -->
