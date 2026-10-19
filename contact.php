@@ -102,7 +102,7 @@
 							<li><a href="index.php" class="active">Home</a></li>
 							<li><a href="about.php">About Us</a></li>
 							<li><a href="service.php">Our Coffees</a></li>
-							<li><a href="contact.php">Contact</a></li>
+							<li><a href="contact.php" class="active">Contact</a></li>
 							
 						</ul>
 					</nav>
@@ -119,7 +119,7 @@
 					<li><a href="index.php" class="active">Home</a></li>
 					<li><a href="about.php">About Us</a></li>
 					<li><a href="service.php">Our Coffees</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="contact.php" class="active">Contact</a></li>
 					
 				</ul>
 			</nav>
@@ -129,7 +129,7 @@
 	<!--==================================================-->
 	<!-- Start Organic Banner Inner Section Here -->
 	<!--==================================================-->	
-    <section class="banner-inner-section">
+    <!--section class="banner-inner-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 wow fadeInUp animated">
@@ -146,7 +146,39 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section-->
+
+	<section class="contact-hero-section">
+		<div class="contact-hero-overlay"></div>
+		<div class="container contact-hero-content">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center wow fadeInUp animated">
+					<p class="contact-hero-breadcrumb">
+						<a href="index.php">Home</a>
+						<i class="bi bi-arrow-right"></i>
+						Contact Us
+					</p>
+					<span class="contact-hero-badge"><i class="bi bi-headset"></i> We'd Love to Hear From You</span>
+					<h1 class="contact-hero-title">Get In Touch</h1>
+					<p class="contact-hero-sub">Have a question about sourcing premium East African coffee, or ready to place an order? Reach out — our team is here to help.</p>
+					<div class="contact-hero-pills">
+						<a href="mailto:info@greenglobeexporters.co.ke" class="contact-hero-pill">
+							<i class="bi bi-envelope-fill"></i> info@greenglobeexporters.co.ke
+						</a>
+						<a href="tel:+254717989343" class="contact-hero-pill">
+							<i class="bi bi-telephone-fill"></i> +254 717 989 343
+						</a>
+						<span class="contact-hero-pill">
+							<i class="bi bi-geo-alt-fill"></i> Nairobi, Kenya
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--==================================================-->
+	<!-- End Contact Hero Banner -->
+	<!--==================================================--
 	<!--==================================================-->
 	<!-- End Organic Banner Inner Section Here -->
 	<!--==================================================-->	
@@ -207,11 +239,11 @@
                     </div>
                     <div class="contact-inner-item wow fadeInLeft animated">
                         <div class="contact-inner-item-icon">
-                            <img src="assets/images/icon/contact-inner-icon-2.png" alt="icon">
+                            <img src="assets/images/icon/contact-inner-icon-4.png" alt="icon">
                         </div>
                         <div class="contact-inner-item-content">
                             <div class="contact-inner-item-title">
-                                <h6>E-Mail</h6>
+                                <h6>Website</h6>
                             </div>
                             <div class="contact-inner-item-desc">
                                 <a href="#">info@greenglobeexporters.co.ke</a>
@@ -231,7 +263,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contact-inner-item wow fadeInRight animated">
+                       <div class="contact-inner-item wow fadeInRight animated">
                         <div class="contact-inner-item-icon">
                             <i class="bi bi-person-rolodex" style="color: #7fbd43; font-size: 28px;"></i>
                         </div>
@@ -278,7 +310,7 @@
 						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="logo">
 					</div>
 					<div class="footero-desc">
-						<p>We lead the global market in providing premium-quality fruits and vegetables, prioritizing freshness, sustainability, and value for our customers worldwide. </p>
+						<p>We lead the global market in providing premium-quality Kenyan coffee, prioritizing traceability, sustainability, and value for our buyers worldwide. </p>
 					</div>
 					<div class="footer-bottomo-social">
 						<ul>
@@ -295,8 +327,8 @@
 						</div>
 						<ul>
 							<li><a href="index.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Home</a></li>
-							<li><a href="index.php#about"><img src="assets/images/icon/footer-icon.png" alt="icon"> About</a></li>
-							<li><a href="index.php#products"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Coffees</a></li>
+							<li><a href="about.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> About</a></li>
+							<li><a href="service.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Coffees</a></li>
 							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact</a></li>
 						</ul>
 					</div>
@@ -307,10 +339,10 @@
 							<h4>Gallery</h4>
 						</div>
 						<ul>
-							<li><a href="#"><img src="assets/images/main-thumb/brand-thumb.png" alt="thumb"></a>
+							<li><a href="#"><img src="assets/images/main-thumb/coffee_slide.jpg" alt="thumb"></a>
 								<div class="gallary-thumb-btn">
 									<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio"
-										href="assets/images/main-thumb/brand-thumb.png"><i class="bi bi-plus-lg"></i>
+										href="assets/images/main-thumb/coffee_slide.jpg"><i class="bi bi-plus-lg"></i>
 									</a>
 								</div>
 							</li>
@@ -342,10 +374,10 @@
 									</a>
 								</div>
 							</li>
-							<li><a href="#"><img src="assets/images/main-thumb/brand-thumb-6.png" alt="thumb"></a>
+							<li><a href="#"><img src="assets/images/main-thumb/karogoto1.png" alt="thumb"></a>
 								<div class="gallary-thumb-btn">
 									<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio"
-										href="assets/images/main-thumb/brand-thumb-6.png"><i class="bi bi-plus-lg"></i>
+										href="assets/images/main-thumb/karogoto1.png"><i class="bi bi-plus-lg"></i>
 									</a>
 								</div>
 							</li>

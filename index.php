@@ -103,13 +103,13 @@
 						<ul>
 							<li><a href="index.php" class="active">Home</a></li>
 							<li><a href="about.php">About Us</a></li>
-							<li><a href="service.php">Gallary</a></li>
+							<li><a href="service.php">Our Coffees</a></li>
 							<li><a href="contact.php">Contact</a></li>
 						</ul>
 					</nav>
-					<div class="header-btn d-none d-lg-block">
+					<!--div class="header-btn d-none d-lg-block">
 						<a href="contact" class="btn-sample-request">Request a Sample</a>
-					</div>
+					</div-->
 				</div>
 			</div>
 		</div>
@@ -862,7 +862,7 @@
 						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="logo">
 					</div>
 					<div class="footero-desc">
-						<p>Uplifting EastAfrica's finest coffee to the world.</p>
+						<p>We lead the global market in providing premium-quality Kenyan coffee, prioritizing traceability, sustainability, and value for our buyers worldwide. </p>
 					</div>
 					<div class="footer-bottomo-social">
 						<ul>
@@ -879,8 +879,8 @@
 						</div>
 						<ul>
 							<li><a href="index.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Home</a></li>
-							<li><a href="index.php#about"><img src="assets/images/icon/footer-icon.png" alt="icon"> About</a></li>
-							<li><a href="index.php#products"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Coffees</a></li>
+							<li><a href="about.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> About</a></li>
+							<li><a href="service.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Coffees</a></li>
 							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact</a></li>
 						</ul>
 					</div>
@@ -891,10 +891,10 @@
 							<h4>Gallery</h4>
 						</div>
 						<ul>
-							<li><a href="#"><img src="assets/images/main-thumb/brand-thumb.png" alt="thumb"></a>
+							<li><a href="#"><img src="assets/images/main-thumb/coffee_slide.jpg" alt="thumb"></a>
 								<div class="gallary-thumb-btn">
 									<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio"
-										href="assets/images/main-thumb/brand-thumb.png"><i class="bi bi-plus-lg"></i>
+										href="assets/images/main-thumb/coffee_slide.jpg"><i class="bi bi-plus-lg"></i>
 									</a>
 								</div>
 							</li>
@@ -926,10 +926,10 @@
 									</a>
 								</div>
 							</li>
-							<li><a href="#"><img src="assets/images/main-thumb/brand-thumb-6.png" alt="thumb"></a>
+							<li><a href="#"><img src="assets/images/main-thumb/karogoto1.png" alt="thumb"></a>
 								<div class="gallary-thumb-btn">
 									<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio"
-										href="assets/images/main-thumb/brand-thumb-6.png"><i class="bi bi-plus-lg"></i>
+										href="assets/images/main-thumb/karogoto1.png"><i class="bi bi-plus-lg"></i>
 									</a>
 								</div>
 							</li>
@@ -954,7 +954,7 @@
 			</div>
 			<div class="row">
 				<div class="footer-bottom wow fadeInLeft animated">
-					<p>© Copyright <?php echo date('Y'); ?>. All rights reserved by <a href="index.php">Greenglobe Exporters</a></p>
+					<p>© Copyright 2024. All rights reserved by <a href="index.php">Greenglobe Exporters</a></p>
 				</div>
 			</div>
 		</div>

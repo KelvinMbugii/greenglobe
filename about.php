@@ -98,7 +98,7 @@
 							<li><a href="about.php" class="active">About Us </a>
 
 							</li>
-							<li><a href="service.php">Gallary </a>
+							<li><a href="service.php">Our Coffees</a>
 								
 							</li>
 							<!--li><a href="gallary.php">Gallery</a></li-->
@@ -118,13 +118,13 @@
 				<ul class="nav_scroll">
 					
 								<li><a href="index.php">Home </a></li>
-								<li><a href="about.php">About Us </a>
+								<li><a href="about.php" class="active">About Us </a>
 						
 								</li>
-								<li><a href="service.php">Our Products </a>
+								<li><a href="service.php">Our Coffees </a>
 									
 								</li>
-								<li><a href="gallary.php">Gallery</a></li>
+								<!--li><a href="gallary.php">Gallery</a></li-->
 				
 								<li><a href="contact.php">Contact Us</a></li>
 				
@@ -135,7 +135,7 @@
 
 
 	<!--==================================================-->
-	<!-- About Hero Banner — compact with dark overlay for readable text -->
+	<!-- About Hero Banner -->
 	<!--==================================================-->
 	<section class="about-hero-section">
 		<div class="about-hero-overlay"></div>
@@ -148,10 +148,18 @@
 						About Us
 					</p>
 					<h1 class="about-hero-title">Our Story &amp; Purpose</h1>
-					<p class="about-hero-sub">From the fertile highlands of Kenya to tables around the world — we bring nature's finest to your doorstep.</p>
+					<p class="about-hero-sub">From the fertile highlands of Kenya to tables around the world — we bring nature's finest to your doorstep with integrity, passion, and care.</p>
+					<div class="about-hero-actions">
+						<a href="#about-story" class="about-hero-btn about-hero-btn--primary">Discover Our Story</a>
+						<a href="contact.php" class="about-hero-btn about-hero-btn--outline">Get In Touch</a>
+					</div>
 				</div>
 			</div>
 		</div>
+		<!-- Scroll indicator -->
+		<a href="#about-story" class="about-hero-scroll" aria-label="Scroll down">
+			<i class="bi bi-chevron-double-down"></i>
+		</a>
 	</section>
 	<!--==================================================-->
 	<!-- End About Hero Banner -->
@@ -161,7 +169,7 @@
 	<!--==================================================-->
 	<!-- Our Story Section -->
 	<!--==================================================-->
-	<section class="about-story-section">
+	<section class="about-story-section" id="about-story">
 		<div class="container">
 			<div class="row align-items-center g-5">
 				<div class="col-lg-6 wow fadeInLeft animated">
@@ -353,7 +361,7 @@
 						<img src="assets/images/main-thumb/coffee-logo.jpg" alt="logo">
 					</div>
 					<div class="footero-desc">
-						<p>We lead the global market in providing premium-quality fruits and vegetables, prioritizing freshness, sustainability, and value for our customers worldwide. </p>
+						<p>We lead the global market in providing premium-quality Kenyan coffee, prioritizing traceability, sustainability, and value for our buyers worldwide.</p>
 					</div>
 					<div class="footer-bottomo-social">
 						<ul>
@@ -369,10 +377,10 @@
 							<h4>Explore</h4>
 						</div>
 						<ul>
-							<li><a href="about.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> About Us</a></li>
-							<li><a href="service.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Products</a></li>
-							<li><a href="gallary.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our gallery</a></li>
-							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact us</a></li>
+							<li><a href="index.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Home</a></li>
+							<li><a href="about.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> About</a></li>
+							<li><a href="service.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Our Coffees</a></li>
+							<li><a href="contact.php"><img src="assets/images/icon/footer-icon.png" alt="icon"> Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -382,10 +390,10 @@
 							<h4>Gallery</h4>
 						</div>
 						<ul>
-							<li><a href="#"><img src="assets/images/main-thumb/brand-thumb.png" alt="thumb"></a>
+							<li><a href="#"><img src="assets/images/main-thumb/coffee_slide.jpg" alt="thumb"></a>
 								<div class="gallary-thumb-btn">
 									<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio"
-										href="assets/images/main-thumb/brand-thumb.png"><i class="bi bi-plus-lg"></i>
+										href="assets/images/main-thumb/coffee_slide.jpg"><i class="bi bi-plus-lg"></i>
 									</a>
 								</div>
 							</li>
@@ -417,10 +425,10 @@
 									</a>
 								</div>
 							</li>
-							<li><a href="#"><img src="assets/images/main-thumb/brand-thumb-6.png" alt="thumb"></a>
+							<li><a href="#"><img src="assets/images/main-thumb/karogoto1.png" alt="thumb"></a>
 								<div class="gallary-thumb-btn">
 									<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio"
-										href="assets/images/main-thumb/brand-thumb-6.png"><i class="bi bi-plus-lg"></i>
+										href="assets/images/main-thumb/karogoto1.png"><i class="bi bi-plus-lg"></i>
 									</a>
 								</div>
 							</li>

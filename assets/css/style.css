@@ -8615,3 +8615,567 @@ button:focus-visible {
         padding: 28px 22px;
     }
 }
+
+
+/* ============================================================
+   COFFEE JOURNEY / STORYLINE PAGE STYLES  (service.php)
+   ============================================================ */
+
+/* ── Page Hero Banner ── */
+.journey-hero {
+	background: linear-gradient(rgba(20,10,5,0.60), rgba(20,10,5,0.60)),
+	            url('../images/main-thumb/coffee-tree.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 130px 0 90px;
+	text-align: center;
+}
+.journey-hero h1 {
+	font-family: 'Clash Display', serif;
+	font-size: 3.2rem;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+.journey-hero p {
+	font-size: 1.15rem;
+	color: #e0d9cf;
+	max-width: 680px;
+	margin: 0 auto 28px;
+	line-height: 1.8;
+}
+.journey-hero .breadcrumb-bar {
+	font-size: 14px;
+	color: #b8ad9e;
+	margin-bottom: 20px;
+}
+.journey-hero .breadcrumb-bar a { color: #80bd44; text-decoration: none; }
+.journey-hero .breadcrumb-bar a:hover { text-decoration: underline; }
+
+/* ── Chapter / Storyline Label ── */
+.chapter-label {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	background: #80bd44;
+	color: #fff;
+	font-size: 0.78rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 6px 18px;
+	border-radius: 30px;
+	margin-bottom: 14px;
+}
+
+/* ── Alternating Story Sections ── */
+.story-section {
+	padding: 80px 0;
+}
+.story-section.bg-light-cream {
+	background-color: #faf7f2;
+}
+.story-section.bg-dark-coffee {
+	background: linear-gradient(rgba(30,16,8,0.88), rgba(30,16,8,0.88)),
+	            url('../images/main-thumb/coffee_sliderr.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+}
+.story-section.bg-dark-coffee h2,
+.story-section.bg-dark-coffee p,
+.story-section.bg-dark-coffee .chapter-label { color: #fff; }
+.story-section.bg-dark-coffee h2 { color: #f5f0e8; }
+.story-section.bg-dark-coffee p   { color: #c9bfb2; }
+
+.story-image {
+	border-radius: 12px;
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
+	box-shadow: 0 16px 48px rgba(0,0,0,0.18);
+}
+
+.story-text h2 {
+	font-family: 'Clash Display', serif;
+	font-size: 2.2rem;
+	font-weight: 700;
+	color: #2c1810;
+	line-height: 1.25;
+	margin-bottom: 18px;
+}
+.story-text p {
+	font-size: 1.03rem;
+	color: #5c534a;
+	line-height: 1.85;
+	margin-bottom: 16px;
+}
+.story-text .story-quote {
+	border-left: 4px solid #80bd44;
+	padding: 12px 20px;
+	background: #f0f7e6;
+	border-radius: 0 8px 8px 0;
+	font-style: italic;
+	color: #3a5c1a;
+	font-size: 1rem;
+	margin: 20px 0;
+}
+.story-section.bg-dark-coffee .story-text .story-quote {
+	background: rgba(128,189,68,0.15);
+	color: #b8dd80;
+}
+
+/* Inline icon bullet list */
+.story-bullets {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+}
+.story-bullets li {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin-bottom: 10px;
+	font-size: 0.97rem;
+	color: #5c534a;
+}
+.story-bullets li i { color: #80bd44; margin-top: 3px; flex-shrink: 0; }
+.story-section.bg-dark-coffee .story-bullets li { color: #c9bfb2; }
+
+/* ── Step Number Badge ── */
+.step-number {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background: #80bd44;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 700;
+	font-family: 'Clash Display', serif;
+	margin-bottom: 16px;
+	flex-shrink: 0;
+}
+.story-section.bg-dark-coffee .step-number {
+	background: rgba(128,189,68,0.85);
+}
+
+/* ── Timeline connector ── */
+.story-connector {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+}
+.story-connector .connector-dot {
+	width: 18px;
+	height: 18px;
+	background: #80bd44;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px rgba(128,189,68,0.25);
+	margin: 12px 0 4px;
+}
+.story-connector .connector-line {
+	width: 3px;
+	flex: 1;
+	background: linear-gradient(#80bd44, #6F4E37);
+	min-height: 40px;
+}
+
+/* ── Grades Section ── */
+.grades-section {
+	padding: 90px 0;
+	background-color: #fff;
+}
+.grades-section .section-intro h2 {
+	font-family: 'Clash Display', serif;
+	font-size: 2.4rem;
+	color: #2c1810;
+	font-weight: 700;
+}
+.grades-section .section-intro p {
+	font-size: 1rem;
+	color: #6b5e52;
+	max-width: 640px;
+	margin: 0 auto;
+	line-height: 1.8;
+}
+
+.grade-card {
+	border: 1px solid #e5ddd3;
+	border-radius: 12px;
+	padding: 28px 22px 24px;
+	height: 100%;
+	position: relative;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	background: #fff;
+}
+.grade-card:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 14px 40px rgba(111,78,55,0.13);
+}
+.grade-badge {
+	display: inline-block;
+	background: #6F4E37;
+	color: #fff;
+	font-size: 0.72rem;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	padding: 4px 12px;
+	border-radius: 20px;
+	margin-bottom: 14px;
+}
+.grade-badge.aa     { background: #2c1810; }
+.grade-badge.ab     { background: #4A3525; }
+.grade-badge.pb     { background: #6F4E37; }
+.grade-badge.c      { background: #8B6347; }
+.grade-badge.e      { background: #A0522D; }
+.grade-badge.triage { background: #80bd44; color: #fff; }
+
+.grade-card h4 {
+	font-family: 'Clash Display', serif;
+	font-size: 1.35rem;
+	color: #2c1810;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.grade-card .grade-screen {
+	font-size: 0.85rem;
+	color: #80bd44;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.grade-card p {
+	font-size: 0.93rem;
+	color: #6b5e52;
+	line-height: 1.7;
+	margin: 0;
+}
+.grade-divider {
+	width: 40px;
+	height: 3px;
+	background: #80bd44;
+	border-radius: 2px;
+	margin: 12px 0;
+}
+
+/* ── Final CTA Section ── */
+.final-cta-section {
+	background: linear-gradient(rgba(44,24,16,0.92), rgba(44,24,16,0.92)),
+	            url('../images/main-thumb/coffee_slide.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 90px 0;
+	text-align: center;
+	color: #fff;
+}
+.final-cta-section h2 {
+	font-family: 'Clash Display', serif;
+	font-size: 2.6rem;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+.final-cta-section p {
+	font-size: 1.05rem;
+	color: #c9bfb2;
+	max-width: 600px;
+	margin: 0 auto 32px;
+	line-height: 1.8;
+}
+.btn-cta-white {
+	background: #fff;
+	color: #2c1810;
+	padding: 14px 34px;
+	border-radius: 4px;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: all 0.3s ease;
+	display: inline-block;
+}
+.btn-cta-white:hover {
+	background: #80bd44;
+	color: #fff;
+}
+.btn-cta-outline-white {
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 14px 34px;
+	border-radius: 4px;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 1rem;
+	transition: all 0.3s ease;
+	display: inline-block;
+}
+.btn-cta-outline-white:hover {
+	background: #fff;
+	color: #2c1810;
+}
+
+/* ── Service page responsive overrides ── */
+@media (max-width: 768px) {
+	.story-image                      { height: 260px; margin-bottom: 30px; }
+	.journey-hero h1                  { font-size: 2rem; }
+	.story-text h2                    { font-size: 1.7rem; }
+	.grades-section .section-intro h2 { font-size: 1.8rem; }
+	.final-cta-section h2             { font-size: 1.9rem; }
+}
+
+
+/* ============================================================
+   ABOUT HERO — ENHANCEMENTS (badge, buttons, scroll indicator)
+   ============================================================ */
+
+/* Badge pill below breadcrumb */
+.about-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(127, 189, 67, 0.18);
+    border: 1px solid rgba(127, 189, 67, 0.40);
+    color: #c8e88a;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+/* Hero CTA buttons row */
+.about-hero-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 28px;
+}
+
+.about-hero-btn {
+    display: inline-block;
+    padding: 13px 30px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    transition: all 0.28s ease;
+}
+
+.about-hero-btn--primary {
+    background: var(--green);
+    color: #fff;
+    border: 2px solid var(--green);
+}
+.about-hero-btn--primary:hover {
+    background: #68a832;
+    border-color: #68a832;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(127, 189, 67, 0.35);
+}
+
+.about-hero-btn--outline {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.60);
+}
+.about-hero-btn--outline:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: #fff;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Scroll indicator arrow */
+.about-hero-scroll {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: rgba(255,255,255,0.65);
+    font-size: 22px;
+    animation: heroScrollBounce 1.8s ease-in-out infinite;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.about-hero-scroll:hover { color: var(--green); }
+
+@keyframes heroScrollBounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50%       { transform: translateX(-50%) translateY(7px); }
+}
+
+/* Increase hero height slightly to fit new content */
+.about-hero-section {
+    min-height: 420px;
+}
+.about-hero-content {
+    padding: 100px 0 90px;
+}
+
+@media (max-width: 768px) {
+    .about-hero-section  { min-height: 340px; }
+    .about-hero-content  { padding: 80px 0 70px; }
+    .about-hero-actions  { flex-direction: column; align-items: center; }
+    .about-hero-btn      { width: 100%; max-width: 260px; text-align: center; }
+}
+@media (max-width: 576px) {
+    .about-hero-section  { min-height: 300px; }
+    .about-hero-badge    { font-size: 11px; padding: 5px 13px; }
+}
+
+
+/* ============================================================
+   CONTACT HERO  (contact.php)
+   ============================================================ */
+
+.contact-hero-section {
+    position: relative;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    background: url('../images/main-thumb/coffee_slide.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contact-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(15, 30, 10, 0.78) 0%,
+        rgba(10, 22, 6, 0.85) 100%
+    );
+    z-index: 1;
+}
+
+/* Bottom accent line matching about hero */
+.contact-hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--green), var(--gold), var(--green));
+    z-index: 2;
+}
+
+.contact-hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 100px 0 90px;
+}
+
+/* Breadcrumb */
+.contact-hero-breadcrumb {
+    font-size: 13px;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 14px;
+    letter-spacing: 0.04em;
+}
+.contact-hero-breadcrumb a {
+    color: rgba(255,255,255,0.70);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.contact-hero-breadcrumb a:hover { color: var(--gold); }
+.contact-hero-breadcrumb i {
+    margin: 0 6px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+/* Badge */
+.contact-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(127, 189, 67, 0.18);
+    border: 1px solid rgba(127, 189, 67, 0.40);
+    color: #c8e88a;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+/* Title */
+.contact-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.15;
+    margin: 0 0 16px;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+}
+
+/* Subtitle */
+.contact-hero-sub {
+    font-size: 17px;
+    color: rgba(255,255,255,0.82);
+    line-height: 1.7;
+    max-width: 580px;
+    margin: 0 auto 28px;
+    font-weight: 400;
+}
+
+/* Info pills row */
+.contact-hero-pills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.contact-hero-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.22);
+    color: rgba(255,255,255,0.90);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 9px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.25s, border-color 0.25s, color 0.25s;
+    backdrop-filter: blur(4px);
+}
+.contact-hero-pill i {
+    color: var(--green);
+    font-size: 14px;
+}
+a.contact-hero-pill:hover {
+    background: rgba(127, 189, 67, 0.20);
+    border-color: var(--green);
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-hero-section  { min-height: 340px; }
+    .contact-hero-content  { padding: 80px 0 70px; }
+    .contact-hero-sub      { font-size: 15px; }
+    .contact-hero-pills    { flex-direction: column; align-items: center; }
+    .contact-hero-pill     { width: 100%; max-width: 320px; justify-content: center; }
+}
+@media (max-width: 576px) {
+    .contact-hero-title    { font-size: 1.8rem; }
+    .contact-hero-sub      { font-size: 14px; }
+    .contact-hero-badge    { font-size: 11px; padding: 5px 12px; }
+}
